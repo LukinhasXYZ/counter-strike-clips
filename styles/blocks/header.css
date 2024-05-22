@@ -1,0 +1,24 @@
+header {
+    background-image: url(../../src/imagens/cs-cabecario.jpg);
+    background-position-y: 30%;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img{
+    border-radius: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}

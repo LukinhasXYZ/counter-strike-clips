@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'counter-strike';
+    src: url(../../src/fonts/cs_regular.ttf)
+}
+
+body {
+    font-family: counter-strike;
+    background-color: #1a1a1a;
+}

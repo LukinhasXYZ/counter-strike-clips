@@ -1,0 +1,52 @@
+body {
+background-image: url(../../src/imagens/cs-register.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding: 70px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 30px;
+    row-gap: 10px;
+}
+
+.box h1 {
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+.box input {
+    border-radius: 30px;
+    font-family: cursive;
+    padding: 10px;
+    border: solid 3px rgb(41, 40, 40);
+}
+
+.btn-register a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(63, 167, 252);
+    padding: 10px 120px;
+    border-radius: 30px;
+    font-family: cursive;
+    animation: normal;
+}
+
+.login-account {
+    font-family: cursive;
+    color: white;
+}

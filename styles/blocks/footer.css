@@ -1,0 +1,26 @@
+footer {
+    background-color: black;
+    padding: 50px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.btn-download {
+    display: flex;
+    justify-content: end;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(76, 153, 4);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 300ms;
+}
+
+footer a:hover {
+    transform: scale(1.2);
+    background-color: rgb(93, 199, 111);
+    box-shadow: 0 0 7px white;
+}

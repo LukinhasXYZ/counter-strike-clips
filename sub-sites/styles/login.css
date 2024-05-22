@@ -1,0 +1,77 @@
+body {
+    background-image: url(../../src/imagens/cs-login.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding: 70px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 30px;
+    row-gap: 10px;
+}
+
+.box h1 {
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+.box input {
+    border-radius: 30px;
+    font-family: cursive;
+    padding: 10px;
+    border: solid 3px rgb(41, 40, 40);
+}
+
+.remember-box-box {
+    display: flex;
+}
+
+.remember-box-box h1 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.remember-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+.remember-box a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.btn-login a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(63, 167, 252);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-family: cursive;
+}
+
+.create-account {
+    font-family: cursive;
+    color: white;
+}

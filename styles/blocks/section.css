@@ -1,0 +1,51 @@
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.title h1 {
+    background-image: url(../../src/imagens/ak-1750.webp);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: -10px;
+    color: white;
+    padding: 40px 200px;
+    font-weight: 400;
+}
+
+section img {
+    width: 300px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.section-content img{
+    transition: 300ms;
+}
+
+.img-rows {
+    display: flex;
+    column-gap: 10px;
+}
+
+.weapons-img {
+    background-color: rgba(75, 75, 75, 0.473);
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.section-content img:hover{
+    transform: scale(1.3);
+    z-index: 1;
+}
